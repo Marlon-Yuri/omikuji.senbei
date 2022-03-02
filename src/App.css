@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+body{
+  background-image: url(./img/fundo.jpg);
+  background-size: cover;
+}
 
 .Container{
 display:flex;
 flex-direction:column;
-border:solid;
 width:99.7%;
 align-items:center;
 height:99vh;
-background-image: url(./img/fundo.jpg);
-background-size: cover;
 }
-
 .sentence{
   width: 45vw;
   color:white;
