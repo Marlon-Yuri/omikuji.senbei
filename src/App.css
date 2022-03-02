@@ -15,4 +15,20 @@ background-size: cover;
 .sentence{
   width: 45vw;
   font-family: 'Permanent Marker', cursive;
+  
+}
+@media (max-width: 900px) {
+  .sentence{
+      height: 40vh;
+      width: 70vw;
+  }
+}
+@media (max-width: 550px) {
+  .sentence{
+      position:relative;
+      left:3%;
+      top:5%;
+      height: 30vh;
+      font-size: 4.3vw;
+  }
 }

@@ -22,9 +22,28 @@ background-color:#4682B4;
   transform: scale(1.1); 
 
 }
+@media (max-width: 900px) {
+  top:50%;
+  width:6.2vw;
+  font-size:1.6vw;
+}
+@media (max-width: 550px) {
+  top:89%;
+  left:46%;
+  width:11vw;
+  font-size:1.6vw;
+}
 `
 const Myimage = styled.img`
 width:35vw;
+@media (max-width: 900px) {
+  width:39vw;
+}
+@media (max-width: 550px) {
+  width:60vw;
+  position:absolute;
+  left:11%;
+}
 `
 const BoxImg = styled.div`
 width:70vw;
