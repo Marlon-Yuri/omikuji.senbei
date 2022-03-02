@@ -11,7 +11,7 @@ width:5.5vw;
 height:11vh;
 border-radius: 50%;
 position:absolute;
-left:98%;
+left:97.8%;
 top:10%;
 font-weight:bolder;
 font-size:1vw;
