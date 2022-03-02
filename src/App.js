@@ -16,10 +16,12 @@ top:10%;
 font-weight:bolder;
 font-size:1vw;
 border-style:none;
+box-shadow: 0 0 0.7em gold;
 background-color:#4682B4;
 &:hover{
   cursor:pointer;
   transform: scale(1.1); 
+  border:solid 2px;
 
 }
 @media (max-width: 900px) {
@@ -28,10 +30,10 @@ background-color:#4682B4;
   font-size:1.6vw;
 }
 @media (max-width: 460px) {
-  top:89%;
-  left:46%;
+  top:80%;
+  left:40%;
   width:16.6vw;
-  font-size:1.6vw;
+  font-size:3.4vw;
 }
 `
 const Myimage = styled.img`
