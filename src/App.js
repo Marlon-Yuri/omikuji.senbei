@@ -27,7 +27,7 @@ background-color:#4682B4;
   width:6.2vw;
   font-size:1.6vw;
 }
-@media (max-width: 550px) {
+@media (max-width: 460px) {
   top:89%;
   left:46%;
   width:11vw;
@@ -39,7 +39,7 @@ width:35vw;
 @media (max-width: 900px) {
   width:39vw;
 }
-@media (max-width: 550px) {
+@media (max-width: 460px) {
   width:60vw;
   position:absolute;
   left:11%;
