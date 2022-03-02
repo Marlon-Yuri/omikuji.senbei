@@ -24,20 +24,20 @@ background-color:#4682B4;
 }
 @media (max-width: 900px) {
   top:50%;
-  width:6.2vw;
+  width:11vw;
   font-size:1.6vw;
 }
 @media (max-width: 460px) {
   top:89%;
   left:46%;
-  width:11vw;
+  width:16.6vw;
   font-size:1.6vw;
 }
 `
 const Myimage = styled.img`
 width:35vw;
 @media (max-width: 900px) {
-  width:39vw;
+  width:53vw;
 }
 @media (max-width: 460px) {
   width:60vw;
@@ -108,7 +108,7 @@ randomSentence = () => {
             <div className="Container">
             <BoxImg>
             <Myimage src={Img}/>
-            <Btn onClick={this.randomSentence}>OPEN</Btn>
+            <Btn onClick={this.randomSentence}><strong>OPEN</strong></Btn>
             </BoxImg>        
             <h1 className="sentence">{this.state.resultado}</h1>
             </div>
