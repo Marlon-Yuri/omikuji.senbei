@@ -12,7 +12,7 @@ height:11vh;
 border-radius: 50%;
 position:absolute;
 left:97.8%;
-top:10%;
+top:45%;
 font-weight:bolder;
 font-size:1vw;
 border-style:none;
@@ -30,9 +30,10 @@ background-color:#4682B4;
   font-size:1.6vw;
 }
 @media (max-width: 460px) {
-  top:80%;
+  top:8%;
   left:40%;
-  width:16.6vw;
+  width:14vw;
+  height:9vh;
   font-size:3.4vw;
 }
 `
@@ -42,9 +43,10 @@ width:35vw;
   width:53vw;
 }
 @media (max-width: 460px) {
-  width:60vw;
+  width:70vw;
   position:absolute;
-  left:11%;
+  left:3%;
+  top:50%
 }
 `
 const BoxImg = styled.div`
