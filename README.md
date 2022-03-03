@@ -1,6 +1,5 @@
 # BISCOITO DA SORTE SINCERO 🤖
 
-This project was bootstrapped with [Create React App](https://github.com/Marlon-Yuri/omikuji.senbei/blob/master/LICENSE).
 
 Status > Almost 🕵🏾‍♂️ 
 
