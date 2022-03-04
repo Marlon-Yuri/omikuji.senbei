@@ -33,7 +33,7 @@ background-color:#4682B4;
   top:8%;
   left:40%;
   width:14vw;
-  height:9vh;
+  height:8vh;
   font-size:3.4vw;
 }
 `
@@ -119,3 +119,4 @@ randomSentence = () => {
         )
     }
 }
+
